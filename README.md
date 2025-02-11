@@ -55,6 +55,41 @@ These datasets will be cleaned, standardized, and transformed for improved usabi
   - Create job market overview & personalized skill assessment views.
   - Implement **interactive charts, filters, and search options**.
 
+## Repository Structure
+```
+Data_Career_Skills_Dashboard/
+│── data/                      # Datasets
+│   ├── job_postings.csv       # Raw job postings dataset
+│   ├── job_skills.csv         # Raw skills dataset
+│   ├── cleaned_data.csv       # Processed dataset (after cleaning)
+│
+│── backend/                   # Backend API for data retrieval & recommendations
+│   ├── api_endpoints.py       # Flask API for job skills & recommendations
+│
+│── frontend/                  # Simple frontend dashboard
+│   ├── index.html             # Main UI (calls dashboard_visuals.js)
+│   ├── dashboard_visuals.js   # JavaScript visuals for skill rankings
+│
+│── notebooks/                 # Jupyter notebooks for data exploration & processing
+│   ├── eda_analysis.ipynb     # Exploratory Data Analysis
+│   ├── data_cleaning.ipynb    # Cleaning & standardizing job data
+│   ├── skill_extraction.ipynb # Extract, rank, and upload skills to MongoDB
+│
+│── members/                   # Individual workspaces for each team member
+│   ├── Sean_Schallberger/     # Sean Schallberger's work
+│   ├── Jose_Traboulsi/        # Jose Traboulsi's work
+│   ├── Karla_Lopez/           # Karla Lopez's work
+│   ├── Meghdut_Noor/          # Meghdut Noor's work
+│
+│── resources/                 # Shared documents & project references
+│   ├── Project_3_Roadmap.pdf  # Project roadmap document
+│   ├── Data_Skills_Dashboard_Project_Outline.pdf # Project outline document
+│
+│── README.md                  # Project overview
+│── requirements.txt           # Dependencies
+│── .gitignore                 # Ignore unnecessary files
+```
+
 ## Technical Stack
 | Component       | Technology |
 |----------------|------------|
