@@ -58,9 +58,9 @@ These datasets will be cleaned, standardized, and transformed for improved usabi
 ## Technical Stack
 | Component       | Technology |
 |----------------|------------|
-| **Backend & API** | Python, Flask, FastAPI (potentially) |
-| **Database** | MongoDB (local or MongoDB Atlas) |
-| **Visualization** | JavaScript (Plotly, D3.js) |
+| **Backend & API** | Python, Flask |
+| **Database** | MongoDB (local or MongoDB Atlas?) |
+| **Visualization** | JavaScript (Plotly, D3.js, Chart.js) |
 | **Hosting & Deployment** | Local deployment, optional cloud hosting |
 
 ## Project Milestones & Timeline
