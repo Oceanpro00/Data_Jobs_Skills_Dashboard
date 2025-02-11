@@ -16,9 +16,11 @@ This project is structured in **Sprint-based phases** following the roadmap outl
 - **Meghdut Noor**
 
 ## Datasets
-We will source data from:
-- **1.3M LinkedIn Jobs & Skills (2024)**  
+We will source data from either:
+- **1.3M LinkedIn Jobs & Skills (2024)**
+- https://www.kaggle.com/datasets/asaniczka/1-3m-linkedin-jobs-and-skills-2024?select=linkedin_job_postings.csv
 - **Data Science Job Postings & Skills (2024)**
+- https://www.kaggle.com/datasets/asaniczka/data-science-job-postings-and-skills?select=job_postings.csv
 
 These datasets will be cleaned, standardized, and transformed for improved usability.
 
