@@ -125,8 +125,5 @@ Data_Career_Skills_Dashboard/
    ```
 3. **Create a Pull Request (PR)**
 
-## License
-This project is licensed under the **MIT License**.
-
 ## Contact
 For any questions or contributions, please contact any of the project members.
