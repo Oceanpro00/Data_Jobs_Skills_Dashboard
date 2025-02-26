@@ -1,0 +1,426 @@
+[
+    {
+        "keyword_id": 1,
+        "job_keyword": "Machine Learning Engineer"
+    },
+    {
+        "keyword_id": 2,
+        "job_keyword": "Software Engineer"
+    },
+    {
+        "keyword_id": 3,
+        "job_keyword": "Data Warehouse"
+    },
+    {
+        "keyword_id": 4,
+        "job_keyword": "Lead Data Engineer"
+    },
+    {
+        "keyword_id": 5,
+        "job_keyword": "Senior Data Engineer"
+    },
+    {
+        "keyword_id": 6,
+        "job_keyword": "Data Loss Prevention"
+    },
+    {
+        "keyword_id": 7,
+        "job_keyword": "Financial Data Analyst"
+    },
+    {
+        "keyword_id": 8,
+        "job_keyword": "Machine Learning Infrastructure Engineer"
+    },
+    {
+        "keyword_id": 9,
+        "job_keyword": "Data Analyst"
+    },
+    {
+        "keyword_id": 10,
+        "job_keyword": "Master Data Management"
+    },
+    {
+        "keyword_id": 11,
+        "job_keyword": "Database"
+    },
+    {
+        "keyword_id": 12,
+        "job_keyword": "Mlops"
+    },
+    {
+        "keyword_id": 13,
+        "job_keyword": "Data Engineering"
+    },
+    {
+        "keyword_id": 14,
+        "job_keyword": "Data Engineer"
+    },
+    {
+        "keyword_id": 15,
+        "job_keyword": "Data Lifecycle Manager"
+    },
+    {
+        "keyword_id": 16,
+        "job_keyword": "Data Scientist"
+    },
+    {
+        "keyword_id": 17,
+        "job_keyword": "Business Intelligence"
+    },
+    {
+        "keyword_id": 18,
+        "job_keyword": "Senior Data Architect"
+    },
+    {
+        "keyword_id": 19,
+        "job_keyword": "Ml Engineer"
+    },
+    {
+        "keyword_id": 20,
+        "job_keyword": "Data Modeling"
+    },
+    {
+        "keyword_id": 21,
+        "job_keyword": "Data Privacy"
+    },
+    {
+        "keyword_id": 22,
+        "job_keyword": "Data Operations"
+    },
+    {
+        "keyword_id": 23,
+        "job_keyword": "Data Manager"
+    },
+    {
+        "keyword_id": 24,
+        "job_keyword": "Ml Engineering"
+    },
+    {
+        "keyword_id": 25,
+        "job_keyword": "Data Steward"
+    },
+    {
+        "keyword_id": 26,
+        "job_keyword": "Data Coordinator"
+    },
+    {
+        "keyword_id": 27,
+        "job_keyword": "Machine Learning Engineering"
+    },
+    {
+        "keyword_id": 28,
+        "job_keyword": "Bsa"
+    },
+    {
+        "keyword_id": 29,
+        "job_keyword": "Data Specialist"
+    },
+    {
+        "keyword_id": 30,
+        "job_keyword": "Data Architect"
+    },
+    {
+        "keyword_id": 31,
+        "job_keyword": "Data Conversion"
+    },
+    {
+        "keyword_id": 32,
+        "job_keyword": "Data Security"
+    },
+    {
+        "keyword_id": 33,
+        "job_keyword": "Data Entry Specialist"
+    },
+    {
+        "keyword_id": 34,
+        "job_keyword": "Machine Learning Software Developer"
+    },
+    {
+        "keyword_id": 35,
+        "job_keyword": "Cloud Data Architect"
+    },
+    {
+        "keyword_id": 36,
+        "job_keyword": "Ml Platform"
+    },
+    {
+        "keyword_id": 37,
+        "job_keyword": "Data Protection"
+    },
+    {
+        "keyword_id": 38,
+        "job_keyword": "Big Data Architect"
+    },
+    {
+        "keyword_id": 39,
+        "job_keyword": "Big Data Engineer"
+    },
+    {
+        "keyword_id": 40,
+        "job_keyword": "Databases"
+    },
+    {
+        "keyword_id": 41,
+        "job_keyword": "Aml"
+    },
+    {
+        "keyword_id": 42,
+        "job_keyword": "Cloud Engineer"
+    },
+    {
+        "keyword_id": 43,
+        "job_keyword": "Data Governance"
+    },
+    {
+        "keyword_id": 44,
+        "job_keyword": "Data Analysts"
+    },
+    {
+        "keyword_id": 45,
+        "job_keyword": "Data Warehouse Architect"
+    },
+    {
+        "keyword_id": 46,
+        "job_keyword": "Ml Systems"
+    },
+    {
+        "keyword_id": 47,
+        "job_keyword": "Data Science Manager"
+    },
+    {
+        "keyword_id": 48,
+        "job_keyword": "Platform Engineer"
+    },
+    {
+        "keyword_id": 49,
+        "job_keyword": "Software Engineering"
+    },
+    {
+        "keyword_id": 50,
+        "job_keyword": "Data Lake Architect"
+    },
+    {
+        "keyword_id": 51,
+        "job_keyword": "Data Architecture"
+    },
+    {
+        "keyword_id": 52,
+        "job_keyword": "Backend Engineer"
+    },
+    {
+        "keyword_id": 53,
+        "job_keyword": "Site Reliability Engineer"
+    },
+    {
+        "keyword_id": 54,
+        "job_keyword": "Data Compliance"
+    },
+    {
+        "keyword_id": 55,
+        "job_keyword": "Devops Engineer"
+    },
+    {
+        "keyword_id": 56,
+        "job_keyword": "Data Business Analyst"
+    },
+    {
+        "keyword_id": 57,
+        "job_keyword": "Storage"
+    },
+    {
+        "keyword_id": 58,
+        "job_keyword": "Lead Data Architect"
+    },
+    {
+        "keyword_id": 59,
+        "job_keyword": "Data Infrastructure"
+    },
+    {
+        "keyword_id": 60,
+        "job_keyword": "Data Science Engineer"
+    },
+    {
+        "keyword_id": 61,
+        "job_keyword": "Data Quality Manager"
+    },
+    {
+        "keyword_id": 62,
+        "job_keyword": "Enterprise Data Architect"
+    },
+    {
+        "keyword_id": 63,
+        "job_keyword": "Ml Platforms"
+    },
+    {
+        "keyword_id": 64,
+        "job_keyword": "Machine Learning Operations"
+    },
+    {
+        "keyword_id": 65,
+        "job_keyword": "Infrastructure Engineer"
+    },
+    {
+        "keyword_id": 66,
+        "job_keyword": "Data Processing"
+    },
+    {
+        "keyword_id": 67,
+        "job_keyword": "Datacenter Technician"
+    },
+    {
+        "keyword_id": 68,
+        "job_keyword": "Aws Databricks"
+    },
+    {
+        "keyword_id": 69,
+        "job_keyword": "Software Developer"
+    },
+    {
+        "keyword_id": 70,
+        "job_keyword": "Data Consultant"
+    },
+    {
+        "keyword_id": 71,
+        "job_keyword": "Data Engineers"
+    },
+    {
+        "keyword_id": 72,
+        "job_keyword": "Data Science Analyst"
+    },
+    {
+        "keyword_id": 73,
+        "job_keyword": "Senior Data Engineering"
+    },
+    {
+        "keyword_id": 74,
+        "job_keyword": "Bi Analyst"
+    },
+    {
+        "keyword_id": 75,
+        "job_keyword": "Ml Developer"
+    },
+    {
+        "keyword_id": 76,
+        "job_keyword": "Data Replication Engineer"
+    },
+    {
+        "keyword_id": 77,
+        "job_keyword": "Etl Developer"
+    },
+    {
+        "keyword_id": 78,
+        "job_keyword": "Datacenter Engineer"
+    },
+    {
+        "keyword_id": 79,
+        "job_keyword": "Azure Data"
+    },
+    {
+        "keyword_id": 80,
+        "job_keyword": "Cloud Data"
+    },
+    {
+        "keyword_id": 81,
+        "job_keyword": "Ml Infrastructure"
+    },
+    {
+        "keyword_id": 82,
+        "job_keyword": "Big Data Developer"
+    },
+    {
+        "keyword_id": 83,
+        "job_keyword": "Machine Learning Software Engineer"
+    },
+    {
+        "keyword_id": 84,
+        "job_keyword": "Financial Analyst"
+    },
+    {
+        "keyword_id": 85,
+        "job_keyword": "Cloud Database"
+    },
+    {
+        "keyword_id": 86,
+        "job_keyword": "Risk Analyst"
+    },
+    {
+        "keyword_id": 87,
+        "job_keyword": "Data Stewardship"
+    },
+    {
+        "keyword_id": 88,
+        "job_keyword": "Data Pipeline Engineer"
+    },
+    {
+        "keyword_id": 89,
+        "job_keyword": "Big Data Engineering"
+    },
+    {
+        "keyword_id": 90,
+        "job_keyword": "Ai Data Science Lead"
+    },
+    {
+        "keyword_id": 91,
+        "job_keyword": "Application Developer"
+    },
+    {
+        "keyword_id": 92,
+        "job_keyword": "Oracle Database Engineer"
+    },
+    {
+        "keyword_id": 93,
+        "job_keyword": "Systems Developer"
+    },
+    {
+        "keyword_id": 94,
+        "job_keyword": "Sre"
+    },
+    {
+        "keyword_id": 95,
+        "job_keyword": "Dba"
+    },
+    {
+        "keyword_id": 96,
+        "job_keyword": "Data Analystics"
+    },
+    {
+        "keyword_id": 97,
+        "job_keyword": "Data Integrations"
+    },
+    {
+        "keyword_id": 98,
+        "job_keyword": "Datacenter Network Engineer"
+    },
+    {
+        "keyword_id": 99,
+        "job_keyword": "Data Management Engineer"
+    },
+    {
+        "keyword_id": 100,
+        "job_keyword": "Cloud Datawarehouse"
+    },
+    {
+        "keyword_id": 101,
+        "job_keyword": "Azure Databricks"
+    },
+    {
+        "keyword_id": 102,
+        "job_keyword": "Principal Data Architect"
+    },
+    {
+        "keyword_id": 103,
+        "job_keyword": "Data Analystat"
+    },
+    {
+        "keyword_id": 104,
+        "job_keyword": "Platform Engineering"
+    },
+    {
+        "keyword_id": 105,
+        "job_keyword": "Datacenter Engineering"
+    },
+    {
+        "keyword_id": 106,
+        "job_keyword": "Data Solution Architect"
+    }
+]
