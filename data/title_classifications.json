@@ -1,0 +1,58 @@
+[
+    {
+        "title_id": 1,
+        "job_classification": "Machine Learning Engineer"
+    },
+    {
+        "title_id": 2,
+        "job_classification": "Software & Platform Engineering"
+    },
+    {
+        "title_id": 3,
+        "job_classification": "Data Modeling & Warehousing"
+    },
+    {
+        "title_id": 4,
+        "job_classification": "Data Engineer"
+    },
+    {
+        "title_id": 5,
+        "job_classification": "Risk & Compliance Analytics"
+    },
+    {
+        "title_id": 6,
+        "job_classification": "Data Analyst"
+    },
+    {
+        "title_id": 7,
+        "job_classification": "MLOps Engineer"
+    },
+    {
+        "title_id": 8,
+        "job_classification": "Data Governance & Security"
+    },
+    {
+        "title_id": 9,
+        "job_classification": "Database Engineer / Administrator"
+    },
+    {
+        "title_id": 10,
+        "job_classification": "Data Scientist"
+    },
+    {
+        "title_id": 11,
+        "job_classification": "Data Architect"
+    },
+    {
+        "title_id": 12,
+        "job_classification": "Data Operations & Management"
+    },
+    {
+        "title_id": 13,
+        "job_classification": "Data Specialist"
+    },
+    {
+        "title_id": 14,
+        "job_classification": "Cloud & Infrastructure Engineering"
+    }
+]
