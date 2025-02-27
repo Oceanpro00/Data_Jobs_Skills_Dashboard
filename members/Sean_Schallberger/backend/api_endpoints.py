@@ -72,37 +72,51 @@ def classify_skill_hierarchy(id):
         # Stage 6: Sort the results by count in descending order
         {"$sort": {"count": -1}},
         
-        # Stage 7: Limit the results to top 10 skills
-        {"$limit": 10},
+        # Stage 7: Limit the results to top 30 skills
+        # {"$limit": 30},
         
-        # Stage 8: Project the final output format
+        # Stage 8: Group all documents again to get a total count of documents and keep skill data
+        {
+            "$group": {
+                "_id": None,
+                "total_count": {"$sum": 1},
+                "job_classification": {"$first": "$job_classification"},
+                "top_skills": {"$push": {"skill": "$_id", "count": "$count"}}
+            }
+        },
+        
+        # Stage 9: Project the final output format with total_count, job_classification, and top_skills
         {
             "$project": {
                 "_id": 0,
-                "skill": "$_id",
-                "count": 1,
-                "job_classification": 1
+                "total_count": 1,
+                "job_classification": 1,
+                "top_skills": 1
             }
         }
+        
     ]
     
     # Execute the aggregation pipeline
     results = list(collection.aggregate(pipeline))
     
-    # Convert MongoDB documents to a JSON-friendly format
-    top_skills = [{"skill": result["skill"], "count": result["count"]} for result in results]
+    if not results:
+        return jsonify({
+            "job_id": id,
+            "job_classification": None,
+            "total_count": 0,
+            "top_skills": []
+        }), 404
     
-    # Get the job_classification from the first document 
-    if results:
-        job_classification = results[0]["job_classification"]
-    else:
-        job_classification = None
+    # Extract the result from the list (since there's only one document in the result)
+    result = results[0]
     
     # Return the results
     return jsonify({
         "job_id": id,
-        "job_classification": job_classification,
-        "top_skills": top_skills
+        "job_classification": result["job_classification"],
+        "total_count": result["total_count"],
+        "top_skills": result["top_skills"]
     })
 
 if __name__ == '__main__':
