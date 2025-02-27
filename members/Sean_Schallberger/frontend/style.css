@@ -63,6 +63,8 @@ h1{
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     margin-bottom: 20px;
     position: relative;
+    display: flex; 
+    flex-direction: column;
 }
 
 .title-container:hover{
@@ -94,7 +96,16 @@ h1{
     font-size: 0.9em;
     color:#636e72;
     line-height: 1.5;
-    margin-top: 40px;
+    min-height: 90px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: auto;
+}
+
+.seniority_classification{
+    font-size: 0.9em;
+    color:#2d3436;
+    margin-top: auto;
     margin-bottom: 20px;
 }
 
@@ -198,7 +209,7 @@ h1{
     .container{
         padding: 40px;
         width: 90%;
-        max-width: 1200px;
+        max-width: 2500px;
     }
     .title-container{
         width: calc(33.333% - 20px);
