@@ -32,5 +32,11 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     };
 
+    // run function on page load
     animateBars();
+
+    // run function on scroll and resize
+    window.addEventListener('scroll', animateBars);
+    window.addEventListener('resize', animateBars);
+
 });
