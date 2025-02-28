@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    overflow-x: hidden;
+}
+
+/* Base Grid Structure */
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+        "header"
+        "main";
+    width: 100%;
+}
+
+/* Header */
+.header {
+    grid-area: header;
+    height: 200px;
+    width: 100%;
+    background-color: #fff;
+    color: #2d3436;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Adjust job title */
+.header h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: auto;
+    color: #555;
+}
+
+/* Main Content */
+.main-container {
+    grid-area: main;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 90%;
+}
+
+/* Dashboard Layout */
+.dashboard-container {
+    display: flex;
+    flex-direction: column; /* Mobile First */
+    gap: 40px;
+    width: 100%;
+}
+
+/* Left Grid: 2x2 Layout for Job Count & Pie Charts */
+.left-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column on mobile */
+    grid-template-rows: auto;
+    gap: 15px;
+}
+
+/* Metric Box & Pie Charts */
+.metric-card,
+.chart-box {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-grow: 1; 
+    min-height: 320px; 
+}
+
+.metric-card h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #2d3436;
+    margin-bottom: 5px;
+}
+
+.metric-card p {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1a73e8;
+}
+
+/* Add space below chart-box title */
+.chart-box h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Ensure Pie Charts Adjust Properly */
+.chart-box div {
+    width: 100%;
+    flex-grow: 1;
+    min-width: 320px;
+    min-height: 320px;
+    max-width: 350px;
+    max-height: 350px;
+}
+
+/* Highlight the percentage */
+.highlight-percentage {
+    font-size: 1.5em;  /* Make the percentage bigger */
+    font-weight: bold; /* Make it bold */
+    color: #1a73e8;    /* Blue color for emphasis */
+}
+
+/* Right Grid: Skills List & Horizontal Bar Chart */
+.right-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+/* Skill List */
+.skill-list {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.1);
+    flex-grow: 1;
+}
+
+.skill-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Ensure the chart container is responsive */
+.chart-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.1);
+    flex-grow: 1; 
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* Prevent skill names from being cut off */
+.chart-container svg {
+    width: 100% !important; 
+}
+
+/* Tablet Layout (768px - 1479px) */
+@media (min-width: 768px) and (max-width: 1479px) {
+    .dashboard-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Two equal columns */
+        gap: 20px;
+    }
+
+    .left-grid {
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: auto;
+    }
+
+    .right-grid {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* Desktop Layout (≥ 1480px) */
+@media (min-width: 1480px) {
+    .dashboard-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        align-items: start;
+    }
+
+    .left-grid {
+        flex: 1;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 15px;
+        min-width: 350px;
+        align-items: start;
+        height: 100%;
+    }
+
+    .right-grid {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        min-width: 350px;
+        height: 100%;
+    }
+
+    .skill-list,
+    .chart-container {
+        width: 100%;
+    }
+}
