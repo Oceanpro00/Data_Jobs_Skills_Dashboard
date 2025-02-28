@@ -31,12 +31,16 @@ body{
     padding:0 15px;
 }
 
-h1{
-    color:#2d3436;
-    margin-bottom: 12px;
-    font-size: 2.5em;
-    font-weight: 700;
-    line-height: 1.3;
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2d3436;
+    letter-spacing: 2px;
+    padding: 20px;
+    border-bottom: 4px solid #1a73e8;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .subtitle{
@@ -132,10 +136,26 @@ h1{
 .seniority-level{
     width: 0%;
     height: 100%;
-    background:linear-gradient(90deg, #00bcd4, #ff9800);
     border-radius: 5px;
     position: relative;
     transition: width 2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Seniority Level Bar Colors */
+.seniority-level.entry {
+    background: linear-gradient(90deg, #42a5f5, #90caf9); /* Light Blue */
+}
+
+.seniority-level.mid {
+    background: linear-gradient(90deg, #26a69a, #80cbc4); /* Teal */
+}
+
+.seniority-level.senior {
+    background: linear-gradient(90deg, #ffb74d, #ffcc80); /* Amber */
+}
+
+.seniority-level.advanced {
+    background: linear-gradient(90deg, #ef5350, #e57373); /* Red */
 }
 
 .percent{

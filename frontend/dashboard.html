@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="dashboard-style.css">
 
     <!-- Plotly -->
-    <script src="https://cdn.plot.ly/plotly-3.0.0.min.js" charset="utf-8"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
     <!-- D3 -->
     <script src="https://d3js.org/d3.v7.min.js"></script>
@@ -42,17 +42,17 @@
 
                     <div class="chart-box">
                         <h3 id="BachelorsDegreeChartTitle">Bachelor’s Degree</h3>
-                        <div id="mastersdegreeChart"></div>
-                    </div>
-
-                    <div class="chart-box">
-                        <h3 id="MastersDegreeChartTitle">Master’s Degree</h3>
                         <div id="bachelorsdegreeChart"></div>
                     </div>
 
                     <div class="chart-box">
+                        <h3 id="MastersDegreeChartTitle">Master’s Degree</h3>
+                        <div id="mastersdegreeChart"></div>
+                    </div>
+
+                    <div class="chart-box">
                         <h3 id="PhDChartTitle">PhD</h3>
-                        <div id="phdChart""></div>
+                        <div id="phdChart"></div>
                     </div>
                 </section>
 
@@ -72,7 +72,11 @@
         </main>
     </div>
     
-    <!-- Top 10 JS -->
-    <script src="dashboard-script.js"></script>
+    <!-- JS -->
+    <script src="Js/api-import.js"></script>
+    <script src="Js/skillList.js"></script>
+    <script src="Js/chart-rendering.js"></script>
+    <script src="Js/dashboard-script.js"></script>
+
 </body>
 </html>

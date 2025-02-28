@@ -5,7 +5,9 @@ from pymongo import MongoClient
 
 # Initialize Flask App
 app = Flask(__name__)
-CORS(app)
+
+# Ensure CORS allows all origins
+CORS(app, resources={r"/*": {"origins": "*"}}, supports_credentials=True)
 
 # Connect to MongoDB
 client = MongoClient("mongodb://localhost:27017/")
@@ -120,6 +122,43 @@ def classify_skill_hierarchy(id):
         "total_count": result["total_count"],
         "top_skills": result["top_skills"]
     })
+
+
+# All Job listing Locations Pipeline
+@app.route('/all_jobs_info', methods=['GET'])
+def get_all_jobs_info():
+    # Define the aggregation pipeline
+    pipeline = [
+        # Stage 1: Lookup to join with job_titles collection
+        {"$lookup": {
+            "from": "title_classifications",  # The collection to join
+            "localField": "title_id",         # Field from job_postings
+            "foreignField": "title_id",       # Field from the job_titles collection
+            "as": "job_title_info"
+        }},
+
+        # Stage 2: Unwind the job_title_info array
+        {"$unwind": "$job_title_info"},
+
+        # Stage 3: Project the required fields
+        {
+            "$project": {
+                "_id": 0,
+                "job_id": "$title_id",
+                "job_classification": "$job_title_info.job_classification",
+                "city": "$city",
+                "state": "$state"
+            }
+        }
+    ]
+
+    # Execute the aggregation pipeline
+    results = list(collection.aggregate(pipeline))
+
+    if not results:
+        return jsonify({"message": "No job postings found"}), 404
+
+    return jsonify(results)
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
