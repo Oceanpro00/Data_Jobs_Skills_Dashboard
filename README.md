@@ -29,7 +29,7 @@ The following process map outlines how the **Python scripts, MongoDB interaction
 
 **Figure 1: Program Process Map**  
 A **high-level overview of system operations**, covering data extraction, storage, API integration, and visualization.  
-![Figure 1: Program Process Map]((https://raw.githubusercontent.com/Oceanpro00/Data_Employment_Skills_Dashboard/main/resources/Project_3_Process_Map.jpg)  
+![Figure 1: Program Process Map]((resources/Project_3_Process_Map.jpg)  
 
 This diagram illustrates the **full process**, from **data collection to interactive visualizations**, ensuring that job seekers can easily access and interpret job market trends.  
 
