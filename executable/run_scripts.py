@@ -1,12 +1,27 @@
 import subprocess
 import os
 import webbrowser
+import sys  # Used to ensure the script runs with the current Python executable
+
+# Function to install dependencies
+def install_requirements():
+    print("Checking and installing dependencies from requirements.txt...")
+    try:
+        subprocess.run([sys.executable, "-m", "pip", "install", "--upgrade", "pip"], check=True)
+        subprocess.run([sys.executable, "-m", "pip", "install", "-r", "requirements.txt"], check=True)
+        print("All dependencies installed successfully.")
+    except subprocess.CalledProcessError as e:
+        print(f"Error installing dependencies: {e}")
+        sys.exit(1)  # Exit if installation fails
 
 # Define a function to run each script
 def run_scripts(script):
     print(f"Running {script}...")
     subprocess.run(["python", script])
     print(f"{script} has finished running.")
+
+# Install dependencies before running scripts
+install_requirements()
 
 # Run data cleaning script
 run_scripts("data_cleaning_executable.py")
