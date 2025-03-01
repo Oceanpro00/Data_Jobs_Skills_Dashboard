@@ -19,7 +19,7 @@ run_scripts("database_creation_executable.py")
 
 # Run Flask API server in background (non-blocking)
 print("Starting Flask API server...")
-flask_process = subprocess.Popen(["python", "api_endpoints_executable.py"])  # Replace with the actual name of your script
+flask_process = subprocess.Popen(["python", "api_endpoints_executable.py"]) 
 
 # Get the directory of the current script
 script_dir = os.path.dirname(os.path.abspath(__file__))
