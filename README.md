@@ -1,5 +1,84 @@
 # Data Employment Skills Dashboard  
 
+## 📖 Index  
+
+### 1. Introduction  
+- #### 📌 Project Overview  
+- #### 🎯 End Goals  
+- #### 🔄 System Workflow Overview  
+  - *Figure 1: Program Process Map*  
+
+### 2. Scope & Limitations  
+- #### 🌍 U.S.-Centric Dataset Bias  
+  - *Figure 2: Job Postings by Location*  
+- #### 📌 Job Title Standardization Challenges  
+  - *Figure 3: Job Title Frequency Distribution*  
+- #### 🔧 Skill Fragmentation & Scope Limitation  
+  - *Figure 4: Skill Frequency Distribution*  
+
+### 3. Repository Structure  
+- #### 📂 Folder & File Organization  
+
+### 4. Project Workflow Overview  
+- #### 🚀 Sprint-Based Development Approach  
+- #### 📌 Project Sprints Overview  
+  - **Sprint 1**: Data Collection & Cleaning  
+  - **Sprint 2**: Skill Extraction & Processing  
+  - **Sprint 3**: Database & API Development  
+  - **Sprint 4**: Dashboard Development  
+
+### 5. Data Engineering Process  
+- #### 📂 Data Sources & Licensing  
+- #### 🔍 Data Cleaning & Processing  
+  - *Handling Missing Values & Duplicates*  
+  - *Job Title Normalization & Mapping*  
+- #### ⚙️ ETL Workflow Explanation  
+
+### 6. Skill Extraction & Ranking  
+- #### 📊 Methodology  
+- #### 🔍 Challenges & Solutions  
+  - *Handling Variations in Skill Naming*  
+  - *Limiting Focus to Top 20 Skills per Job Title*  
+  - *Figure 1: Skill Frequency Distribution*  
+
+### 7. Database & API Development  
+- #### 📂 Database Choice & Justification  
+- #### 🗂 Database Schema Design  
+  - *Figure 2: MVP Database Schema*  
+  - *Figure 3: Extended Database Schema*  
+- #### 🖥 API Functionality  
+
+### 8. Interactive Dashboard & Visualization  
+- #### 🖥️ Frontend Implementation  
+- #### 📌 Job Categorization Index Page  
+  - *Figure 1: Job Categorization Index Page*  
+- #### 📌 Job-Specific Dashboard  
+  - *Figure 2: Job-Specific Dashboard*  
+- #### 📌 Ethics & Considerations Page  
+  - *Figure 3: Ethics & Considerations Page*  
+- #### 🎨 User Experience & Design  
+
+### 9. Future Enhancements & Next Steps  
+- #### 🚀 Planned Enhancements  
+  - *Expanding Job Categorization & Global Listings*  
+  - *Live Data Updates & Web Scraping*  
+  - *Custom Search Filters & Advanced User Features*  
+  - *Improved Skill Extraction & NLP Integration*  
+  - *User Authentication & Profile-Based Recommendations*  
+- #### 📌 Long-Term Vision  
+
+### 10. Installation & Execution  
+- #### 🛠️ Pre-Requisites  
+- #### 💻 Installation Steps  
+- #### 🗂️ Database Setup (Manual MongoDB Installation Required)  
+- #### 🔄 Running the Project (Fully Automated Execution)  
+- #### 🌐 Platform-Specific Considerations (Mac vs. Windows)  
+
+### 11. Conclusion  
+- #### ✅ Key Takeaways  
+- #### 🔮 Future Prospects  
+
+
 ## 1. Introduction  
 
 ### 📌 Project Overview  
