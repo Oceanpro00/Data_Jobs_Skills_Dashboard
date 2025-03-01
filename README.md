@@ -15,7 +15,7 @@ This project **extracts, categorizes, and ranks job skills**, making it easier f
 
 ---
 
-### 🎯 High-Level Goals  
+### 🎯 End Goals  
 
 - ✅ **Provide job seekers with a clear understanding of in-demand skills.**  
 - ✅ **Enable interactive exploration of job titles and skill rankings.**  
@@ -29,7 +29,7 @@ The following process map outlines how the **Python scripts, MongoDB interaction
 
 **Figure 1: Program Process Map**  
 A **high-level overview of system operations**, covering data extraction, storage, API integration, and visualization.  
-![Figure 1: Program Process Map](Resources/Project_3_Process_Map.jpg)  
+![Figure 1: Program Process Map]((https://raw.githubusercontent.com/Oceanpro00/Data_Employment_Skills_Dashboard/main/resources/Project_3_Process_Map.jpg)  
 
 This diagram illustrates the **full process**, from **data collection to interactive visualizations**, ensuring that job seekers can easily access and interpret job market trends.  
 
@@ -39,7 +39,7 @@ This diagram illustrates the **full process**, from **data collection to interac
 
 ### 🌍 U.S.-Centric Dataset Bias  
 - **Figure 2: Job Postings by Location**  
-  ![Figure 2: Job Postings by Location](Resources/eda_1.3_job_postings_by_location_bar.png)  
+  ![Figure 2: Job Postings by Location](resources/eda_1.3_job_postings_by_location_bar.png)  
 - The dataset is heavily skewed toward **U.S.-based job postings**, making insights **less applicable to international job markets**.  
 - The visualization above illustrates the **geographic bias** in the dataset.  
 
