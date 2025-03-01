@@ -1,48 +1,46 @@
 # Data Employment Skills Dashboard  
 
-> ## 📖 Table of Contents  
->  
-> **1. Introduction**  
-> - Overview  
-> - Goals  
-> - Workflow  
->  
-> **2. Scope & Limitations**  
-> - Dataset Bias  
-> - Job Title Standardization  
-> - Skill Fragmentation  
->  
-> **3. Repository Structure**  
->  
-> **4. Project Workflow**  
-> - Sprint-Based Approach  
-> - Sprint Overview  
->  
-> **5. Data Engineering**  
-> - Data Sources  
-> - Data Cleaning  
-> - ETL Process  
->  
-> **6. Skill Extraction**  
-> - Methodology  
-> - Challenges  
->  
-> **7. Database & API**  
-> - Schema  
-> - API Functionality  
->  
-> **8. Dashboard & Visualization**  
-> - Frontend Features  
-> - Job Categorization  
-> - Ethics & Considerations  
->  
-> **9. Installation**  
-> - Requirements  
-> - Setup & Execution  
->  
-> **10. Conclusion**  
-> - Key Takeaways  
-> - Final Thoughts  
+<details>
+  <summary>📖 **Click to expand Table of Contents**</summary>
+
+  ### 2. Scope & Limitations  
+  - Dataset Bias  
+  - Job Title Standardization  
+  - Skill Fragmentation  
+
+  ### 3. Repository Structure  
+
+  ### 4. Project Workflow  
+  - Sprint-Based Approach  
+  - Sprint Overview  
+
+  ### 5. Data Engineering  
+  - Data Sources  
+  - Data Cleaning  
+  - ETL Process  
+
+  ### 6. Skill Extraction  
+  - Methodology  
+  - Challenges  
+
+  ### 7. Database & API  
+  - Schema  
+  - API Functionality  
+
+  ### 8. Dashboard & Visualization  
+  - Frontend Features  
+  - Job Categorization  
+  - Ethics & Considerations  
+
+  ### 9. Installation  
+  - Requirements  
+  - Setup & Execution  
+
+  ### 10. Conclusion  
+  - Key Takeaways  
+  - Final Thoughts  
+
+</details>
 
 ## 1. Introduction  
 
