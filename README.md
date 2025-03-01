@@ -309,7 +309,7 @@ Our skill extraction process was designed to:
 
 **Figure 2: Skill Frequency Distribution**  
 A **bar chart** visualizing the most frequently mentioned skills in job postings.  
-![Figure 2: Skill Frequency Distribution](resources/eda_1.3_skill_frequency_distribution_bar.png)  
+![Figure 2: Skill Frequency Distribution](resources/eda_1.1_skill_frequency_distribution_bar.png)  
 
 ---
 
@@ -341,13 +341,13 @@ The **MVP database schema** was designed to meet **core data visualization needs
 
 **Figure 2: MVP Database Schema**  
 A **diagram illustrating our minimum viable database structure**, optimized for visualization queries.  
-![Figure 2: MVP Database Schema](resources/Documents/Database_Diagram.png)  
+![Figure 2: MVP Database Schema](resources/Documentation/Database_Diagram.png)  
 
 For future scalability, we designed an **extended schema** to support **multiple data pipelines, broader job classifications, and deeper skill groupings**.  
 
 **Figure 3: Extended Database Schema**  
 A **more detailed entity-relationship diagram**, outlining potential improvements for handling additional job categories, locations, and structured skill hierarchies.  
-![Figure 3: Extended Database Schema](resources/Documents/Database_Diagram_Extended.png)  
+![Figure 3: Extended Database Schema](resources/Documentation/Database_Diagram_Extended.png)  
 
 ---
 
