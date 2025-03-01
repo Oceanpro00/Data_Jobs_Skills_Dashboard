@@ -29,7 +29,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 0 30px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -162,6 +162,10 @@ body {
 
 /* Tablet Layout (768px - 1479px) */
 @media (min-width: 768px) and (max-width: 1479px) {
+    .header{
+        padding: 0 5vw;
+    }
+
     .dashboard-container {
         display: grid;
         grid-template-columns: 1fr 1fr; /* Two equal columns */
@@ -181,6 +185,10 @@ body {
 
 /* Desktop Layout (≥ 1480px) */
 @media (min-width: 1480px) {
+    .header{
+        padding: 0 5vw;
+    }
+
     .dashboard-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
