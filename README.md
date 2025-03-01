@@ -45,14 +45,14 @@ This diagram illustrates the **full process**, from **data collection to interac
 
 ### 📌 Job Title Standardization Challenges  
 - **Figure 3: Job Title Frequency Distribution**  
-  ![Figure 3: Job Title Frequency Distribution](Resources/eda_1.1_job_counts_distribution_line.png)  
+  ![Figure 3: Job Title Frequency Distribution](resources/eda_1.1_job_counts_distribution_line.png)  
 - One of the **biggest challenges** in job market data analysis is **job title standardization**.  
 - **~80% of job titles** in the dataset appear **only once**, making standardization and categorization difficult.  
 - The **line graph above** represents the **distribution of job title occurrences**, highlighting the **long-tail nature** of job postings.  
 
 ### 🔧 Skill Fragmentation & Scope Limitation  
 - **Figure 4: Skill Frequency Distribution**  
-  ![Figure 4: Skill Frequency Distribution](Resources/eda_1.3_skill_frequency_distribution_bar.png)  
+  ![Figure 4: Skill Frequency Distribution](resources/eda_1.3_skill_frequency_distribution_bar.png)  
 - Job postings frequently list **skills in inconsistent formats**, leading to **skill fragmentation**.  
 - Considering **dataset limitations, time constraints, and our current skill levels**, we decided to **narrow the scope** to **14 representative job titles** and focus our **skill extraction on the top 20 skills per job category**.  
 - Our approach ensures that the data remains **relatable, actionable, and as clean as possible**, reducing misinterpretation.  
@@ -186,11 +186,7 @@ This project follows a **sprint-based workflow**, where tasks are distributed am
 - **Ticket 1.1**: Load and explore dataset for job market representation.  
 - **Ticket 1.2**: Assess **data consistency, missing values, and duplicates**.  
 - **Ticket 1.3**: Identify **dataset biases & ethical concerns**.  
-- **Ticket 2**: Standardize job titles, remove duplicate postings, map experience levels.  
-
-**Figure 1: Project Development Roadmap**  
-A **flowchart** visualizing the interaction between data collection, processing, and API integration.  
-![Figure 1: Project Development Roadmap](Resources/Project_3_Process_Map.jpg)  
+- **Ticket 2**: Standardize job titles, remove duplicate postings, map experience levels.
 
 ---
 
@@ -202,9 +198,9 @@ A **flowchart** visualizing the interaction between data collection, processing,
   - **Limited extraction** to **top 20 skills per job category** to keep insights actionable.  
   - No use of **NLP, ML, or complex AI** due to current skill constraints.  
 
-**Figure 2: Skill Frequency Distribution**  
+**Figure 1: Skill Frequency Distribution**  
 A **bar chart** showing the most frequently mentioned skills across job postings.  
-![Figure 2: Skill Frequency Distribution](Resources/eda_1.3_skill_frequency_distribution_bar.png)  
+![Figure 1: Skill Frequency Distribution](resources/eda_1.3_skill_frequency_distribution_bar.png)  
 
 ---
 
@@ -213,9 +209,9 @@ A **bar chart** showing the most frequently mentioned skills across job postings
 - **Ticket 5**: Upload **cleaned job & skill data** to **MongoDB**.  
 - **Ticket 6**: Develop **Flask API endpoints** for skill aggregation & recommendations.  
 
-**Figure 3: Industry Keyword Distribution**  
+**Figure 2: Industry Keyword Distribution**  
 A **bar chart** categorizing job postings based on industry-specific keywords.  
-![Figure 3: Industry Keyword Distribution](Resources/eda_1.1_industry_distribution_keyword_counts.png)  
+![Figure 2: Industry Keyword Distribution](resources/eda_1.1_industry_distribution_keyword_counts.png)  
 
 ---
 
@@ -271,7 +267,7 @@ One of the biggest challenges in job market data analysis is **ensuring clean an
 
 **Figure 1: Job Titles Distribution**  
 A **bar chart** showing the distribution of job postings by title.  
-![Figure 1: Job Titles Distribution](Resources/eda_1.1_job_titles_distribution_bar.png)  
+![Figure 1: Job Titles Distribution](resources/eda_1.1_job_titles_distribution_bar.png)  
 
 ---
 
@@ -313,7 +309,7 @@ Our skill extraction process was designed to:
 
 **Figure 2: Skill Frequency Distribution**  
 A **bar chart** visualizing the most frequently mentioned skills in job postings.  
-![Figure 2: Skill Frequency Distribution](Resources/eda_1.3_skill_frequency_distribution_bar.png)  
+![Figure 2: Skill Frequency Distribution](resources/eda_1.3_skill_frequency_distribution_bar.png)  
 
 ---
 
@@ -325,7 +321,7 @@ Given time constraints and dataset limitations, we:
 
 **Figure 3: Bottom 10 Least Common Skills**  
 A **table listing the least common skills**, indicating potential niche job requirements.  
-![Figure 3: Bottom 10 Least Common Skills](Resources/eda_1.1_Bottom_10_Least_Common_Job_Skills.png)  
+![Figure 3: Bottom 10 Least Common Skills](resources/eda_1.1_Bottom_10_Least_Common_Job_Skills.png)  
 
 ---
 
@@ -345,13 +341,13 @@ The **MVP database schema** was designed to meet **core data visualization needs
 
 **Figure 2: MVP Database Schema**  
 A **diagram illustrating our minimum viable database structure**, optimized for visualization queries.  
-![Figure 2: MVP Database Schema](Resources/Database_Diagram.png)  
+![Figure 2: MVP Database Schema](resources/Database_Diagram.png)  
 
 For future scalability, we designed an **extended schema** to support **multiple data pipelines, broader job classifications, and deeper skill groupings**.  
 
 **Figure 3: Extended Database Schema**  
 A **more detailed entity-relationship diagram**, outlining potential improvements for handling additional job categories, locations, and structured skill hierarchies.  
-![Figure 3: Extended Database Schema](Resources/Database_Diagram_Extended.png)  
+![Figure 3: Extended Database Schema](resources/Database_Diagram_Extended.png)  
 
 ---
 
@@ -383,7 +379,7 @@ Each job title is visually **differentiated by colored bars**, which indicate th
 
 **Figure 1: Job Categorization Index Page**  
 This page allows users to select a **data job category**, each visually distinguished by **seniority level indicators**.  
-![Figure 1: Job Categorization Index](Resources/index.html.png)  
+![Figure 1: Job Categorization Index](resources/index.html.png)  
 
 ---
 
@@ -407,7 +403,7 @@ Once a job category is selected, users are directed to a **job-specific dashboar
 
 **Figure 2: Job-Specific Dashboard**  
 An interactive view of **job listings, education requirements, skill rankings, and dynamic skill gaps**.  
-![Figure 2: Job-Specific Dashboard](Resources/dashboard.html.png)  
+![Figure 2: Job-Specific Dashboard](resources/dashboard.html.png)  
 
 ---
 
@@ -423,7 +419,7 @@ This page outlines:
 
 **Figure 3: Ethics & Considerations Page**  
 This page ensures transparency in **data licensing, scope, and future improvements**.  
-![Figure 3: Ethics & Considerations Page](Resources/ethics.html.png)  
+![Figure 3: Ethics & Considerations Page](resources/ethics.html.png)  
 
 ---
 
