@@ -1,7 +1,5 @@
 # Data Employment Skills Dashboard  
 
-## 1. Introduction  
-
 ---
 
 ## 📖 Table of Contents  
@@ -53,6 +51,8 @@
 </details>
 
 ---
+
+## 1. Introduction  
 
 ### 📌 Project Overview  
 
