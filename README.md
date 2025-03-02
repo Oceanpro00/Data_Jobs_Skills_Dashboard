@@ -145,41 +145,9 @@ Data_Employment_Skills_Dashboard/
 │   ├── style.css
 │
 ├── members/
-│   ├── Jose_Traboulsi/
-│   │   ├── notebooks/
-│   │   │   ├── EDA/
-│   │   │   │   ├── eda_1.3_ethical.ipynb
-│   │   │   ├── skill_extraction.ipynb
-│   │   │   ├── unique_skills.csv
-│   ├── Karla_Lopez/
-│   │   ├── eda_1.2.ipynb
-│   │   ├── eda_5.1.ipynb
-│   │   ├── eda_5.2.ipynb
-│   │   ├── job_postings.json
-│   ├── Sean_Schallberger/
-│   │   ├── backend/
-│   │   │   ├── api_endpoints.py
-│   │   ├── frontend/
-│   │   │   ├── Js/
-│   │   │   │   ├── api-import.js
-│   │   │   │   ├── chart-rendering.js
-│   │   │   │   ├── cloropleth-map.js
-│   │   │   │   ├── dashboard-script.js
-│   │   │   │   ├── skillList.js
-│   │   │   ├── dashboard.html
-│   │   │   ├── dashboard-style.css
-│   │   │   ├── ethics.html
-│   │   │   ├── index.html
-│   │   │   ├── script.js
-│   │   │   ├── style.css
-│   │   ├── notebooks/
-│   │   │   ├── EDA/
-│   │   │   │   ├── eda_1.1_classification_exploration.ipynb
-│   │   │   │   ├── eda_1.1_target_classification.ipynb
-│   │   │   │   ├── eda_1.1_market_representation.ipynb
-│   │   │   │   ├── eda_1.2_Location_Splitting.ipynb
-│   │   │   ├── data_cleaning_sean.ipynb
-│   │   │   ├── skill_extraction_sean.ipynb
+│   ├── Jose_Traboulsi/..     --> Individual EDA and Subsequent Code
+│   ├── Karla_Lopez/..        --> Individual EDA and Subsequent Code
+│   ├── Sean_Schallberger/..  --> Individual EDA and Subsequent Code 
 │
 ├── notebooks/
 │   ├── data_cleaning.ipynb
