@@ -2,22 +2,16 @@
 
 ## 1. Introduction  
 
-### 📌 Project Overview  
-
-The **Data Employment Skills Dashboard** is designed to help **job seekers, career changers, and data professionals** stay competitive by identifying **the most in-demand skills** in Data Science job postings. Job titles and required skills are often inconsistent across postings, making it difficult to understand what truly matters. Our tool **analyzes, ranks, and visualizes** these skills, providing **clear, data-driven insights** to support smarter career decisions.  
-
-Our **interactive dashboard** allows users to:  
-- 🔍 **Identify high-demand skills** based on real job postings.  
-- 📊 **Explore job titles and skill rankings** in an intuitive interface.  
-- 📈 **Compare their skillset** with industry trends to guide career growth.  
-
-This project **extracts, categorizes, and ranks job skills**, making it easier for users to identify skill gaps and target relevant professional development opportunities.  
-
 ---
 
 ## 📖 Table of Contents  
 <details>
   <summary>📖 **Click to expand Table of Contents**</summary>
+  
+  ### 1. Introduction  
+  - Overview  
+  - Goals  
+  - Workflow  
 
   ### 2. Scope & Limitations  
   - Dataset Bias  
@@ -57,6 +51,19 @@ This project **extracts, categorizes, and ranks job skills**, making it easier f
   - Final Thoughts  
 
 </details>
+
+---
+
+### 📌 Project Overview  
+
+The **Data Employment Skills Dashboard** is designed to help **job seekers, career changers, and data professionals** stay competitive by identifying **the most in-demand skills** in Data Science job postings. Job titles and required skills are often inconsistent across postings, making it difficult to understand what truly matters. Our tool **analyzes, ranks, and visualizes** these skills, providing **clear, data-driven insights** to support smarter career decisions.  
+
+Our **interactive dashboard** allows users to:  
+- 🔍 **Identify high-demand skills** based on real job postings.  
+- 📊 **Explore job titles and skill rankings** in an intuitive interface.  
+- 📈 **Compare their skillset** with industry trends to guide career growth.  
+
+This project **extracts, categorizes, and ranks job skills**, making it easier for users to identify skill gaps and target relevant professional development opportunities.  
 
 ---
 
