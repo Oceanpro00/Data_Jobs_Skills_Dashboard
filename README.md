@@ -152,7 +152,6 @@ Data_Employment_Skills_Dashboard/
 ├── notebooks/
 │   ├── data_cleaning.ipynb
 │   ├── database_creation.ipynb
-│   ├── eda_analysis.ipynb
 │   ├── skill_extraction.ipynb
 │
 ├── resources/
